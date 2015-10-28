@@ -14,6 +14,27 @@
 		FB2BA7FB1BE111F100CC110B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2BA7F91BE111F100CC110B /* LaunchScreen.storyboard */; };
 		FB2BA8061BE111F100CC110B /* beaconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2BA8051BE111F100CC110B /* beaconTests.swift */; };
 		FB2BA8111BE111F100CC110B /* beaconUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2BA8101BE111F100CC110B /* beaconUITests.swift */; };
+		FB2BA81F1BE1124500CC110B /* Beaconstac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2BA81E1BE1124500CC110B /* Beaconstac.framework */; };
+		FB2BA8221BE1127500CC110B /* empty.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2BA8211BE1127500CC110B /* empty.m */; };
+		FB2BA8241BE112C500CC110B /* BeaconstacData.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FB2BA8231BE112C500CC110B /* BeaconstacData.bundle */; };
+		FB2BA8261BE112DA00CC110B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2BA8251BE112DA00CC110B /* CoreData.framework */; };
+		FB2BA8281BE112E300CC110B /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2BA8271BE112E300CC110B /* CoreBluetooth.framework */; };
+		FB2BA82A1BE112EE00CC110B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2BA8291BE112EE00CC110B /* SystemConfiguration.framework */; };
+		FB2BA82C1BE112F900CC110B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2BA82B1BE112F900CC110B /* CoreLocation.framework */; };
+		FB2BA82F1BE1161B00CC110B /* MegaTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2BA82E1BE1161B00CC110B /* MegaTheme.swift */; };
+		FB2BA8371BE1170C00CC110B /* ADVAnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2BA8361BE1170C00CC110B /* ADVAnimatedButton.swift */; };
+		FB2BA83C1BE117CF00CC110B /* ADVGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2BA83B1BE117CF00CC110B /* ADVGradientButton.swift */; };
+		FB2BA8401BE1183900CC110B /* ADVProgressLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2BA83F1BE1183900CC110B /* ADVProgressLayer.swift */; };
+		FB2BA8421BE1187A00CC110B /* ADVProgressControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2BA8411BE1187A00CC110B /* ADVProgressControl.swift */; };
+		FB2BA8441BE118AA00CC110B /* ADVSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2BA8431BE118AA00CC110B /* ADVSegmentedControl.swift */; };
+		FB2BA8461BE118F400CC110B /* ADVTabSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2BA8451BE118F400CC110B /* ADVTabSegmentControl.swift */; };
+		FB2BA84D1BE119A400CC110B /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2BA8491BE119A400CC110B /* ProductCell.swift */; };
+		FB2BA84E1BE119A400CC110B /* ProductImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2BA84A1BE119A400CC110B /* ProductImageCell.swift */; };
+		FB2BA84F1BE119A400CC110B /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2BA84B1BE119A400CC110B /* CategoryCell.swift */; };
+		FB2BA8501BE119A400CC110B /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2BA84C1BE119A400CC110B /* CartCell.swift */; };
+		FB2BA8531BE119F700CC110B /* MetaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2BA8521BE119F700CC110B /* MetaCell.swift */; };
+		FB2BA8571BE11A4B00CC110B /* PictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2BA8551BE11A4B00CC110B /* PictureCell.swift */; };
+		FB2BA8581BE11A4B00CC110B /* ConnectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2BA8561BE11A4B00CC110B /* ConnectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +68,28 @@
 		FB2BA80C1BE111F100CC110B /* beaconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beaconUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2BA8101BE111F100CC110B /* beaconUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beaconUITests.swift; sourceTree = "<group>"; };
 		FB2BA8121BE111F100CC110B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB2BA81E1BE1124500CC110B /* Beaconstac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Beaconstac.framework; sourceTree = "<group>"; };
+		FB2BA8201BE1127400CC110B /* beacon-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "beacon-Bridging-Header.h"; sourceTree = "<group>"; };
+		FB2BA8211BE1127500CC110B /* empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = empty.m; sourceTree = "<group>"; };
+		FB2BA8231BE112C500CC110B /* BeaconstacData.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BeaconstacData.bundle; sourceTree = "<group>"; };
+		FB2BA8251BE112DA00CC110B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FB2BA8271BE112E300CC110B /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		FB2BA8291BE112EE00CC110B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FB2BA82B1BE112F900CC110B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FB2BA82E1BE1161B00CC110B /* MegaTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MegaTheme.swift; path = Theme/MegaTheme.swift; sourceTree = "<group>"; };
+		FB2BA8361BE1170C00CC110B /* ADVAnimatedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ADVAnimatedButton.swift; path = Controls/ADVAnimatedButton.swift; sourceTree = "<group>"; };
+		FB2BA83B1BE117CF00CC110B /* ADVGradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ADVGradientButton.swift; path = Controls/ADVGradientButton.swift; sourceTree = "<group>"; };
+		FB2BA83F1BE1183900CC110B /* ADVProgressLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ADVProgressLayer.swift; path = Controls/ADVProgressLayer.swift; sourceTree = "<group>"; };
+		FB2BA8411BE1187A00CC110B /* ADVProgressControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ADVProgressControl.swift; path = Controls/ADVProgressControl.swift; sourceTree = "<group>"; };
+		FB2BA8431BE118AA00CC110B /* ADVSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ADVSegmentedControl.swift; path = Controls/ADVSegmentedControl.swift; sourceTree = "<group>"; };
+		FB2BA8451BE118F400CC110B /* ADVTabSegmentControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ADVTabSegmentControl.swift; path = Controls/ADVTabSegmentControl.swift; sourceTree = "<group>"; };
+		FB2BA8491BE119A400CC110B /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		FB2BA84A1BE119A400CC110B /* ProductImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductImageCell.swift; sourceTree = "<group>"; };
+		FB2BA84B1BE119A400CC110B /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		FB2BA84C1BE119A400CC110B /* CartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
+		FB2BA8521BE119F700CC110B /* MetaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaCell.swift; sourceTree = "<group>"; };
+		FB2BA8551BE11A4B00CC110B /* PictureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureCell.swift; sourceTree = "<group>"; };
+		FB2BA8561BE11A4B00CC110B /* ConnectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +97,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB2BA82C1BE112F900CC110B /* CoreLocation.framework in Frameworks */,
+				FB2BA82A1BE112EE00CC110B /* SystemConfiguration.framework in Frameworks */,
+				FB2BA8281BE112E300CC110B /* CoreBluetooth.framework in Frameworks */,
+				FB2BA8261BE112DA00CC110B /* CoreData.framework in Frameworks */,
+				FB2BA81F1BE1124500CC110B /* Beaconstac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +125,11 @@
 		FB2BA7E41BE111F100CC110B = {
 			isa = PBXGroup;
 			children = (
+				FB2BA82B1BE112F900CC110B /* CoreLocation.framework */,
+				FB2BA8291BE112EE00CC110B /* SystemConfiguration.framework */,
+				FB2BA8271BE112E300CC110B /* CoreBluetooth.framework */,
+				FB2BA8251BE112DA00CC110B /* CoreData.framework */,
+				FB2BA81E1BE1124500CC110B /* Beaconstac.framework */,
 				FB2BA7EF1BE111F100CC110B /* beacon */,
 				FB2BA8041BE111F100CC110B /* beaconTests */,
 				FB2BA80F1BE111F100CC110B /* beaconUITests */,
@@ -97,12 +150,19 @@
 		FB2BA7EF1BE111F100CC110B /* beacon */ = {
 			isa = PBXGroup;
 			children = (
+				FB2BA8591BE11B1300CC110B /* Views */,
+				FB2BA8471BE1194C00CC110B /* Cells */,
+				FB2BA8301BE1166500CC110B /* Controls */,
+				FB2BA82D1BE115FC00CC110B /* Theme */,
 				FB2BA7F01BE111F100CC110B /* AppDelegate.swift */,
 				FB2BA7F21BE111F100CC110B /* ViewController.swift */,
 				FB2BA7F41BE111F100CC110B /* Main.storyboard */,
+				FB2BA8231BE112C500CC110B /* BeaconstacData.bundle */,
 				FB2BA7F71BE111F100CC110B /* Assets.xcassets */,
 				FB2BA7F91BE111F100CC110B /* LaunchScreen.storyboard */,
 				FB2BA7FC1BE111F100CC110B /* Info.plist */,
+				FB2BA8211BE1127500CC110B /* empty.m */,
+				FB2BA8201BE1127400CC110B /* beacon-Bridging-Header.h */,
 			);
 			path = beacon;
 			sourceTree = "<group>";
@@ -123,6 +183,112 @@
 				FB2BA8121BE111F100CC110B /* Info.plist */,
 			);
 			path = beaconUITests;
+			sourceTree = "<group>";
+		};
+		FB2BA82D1BE115FC00CC110B /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				FB2BA82E1BE1161B00CC110B /* MegaTheme.swift */,
+			);
+			name = Theme;
+			sourceTree = "<group>";
+		};
+		FB2BA8301BE1166500CC110B /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				FB2BA8351BE116AA00CC110B /* ADVTabSegmentControl */,
+				FB2BA8341BE1169B00CC110B /* ADVSegmentControl */,
+				FB2BA8331BE1168C00CC110B /* ADVProgressControl */,
+				FB2BA8321BE1168000CC110B /* ADVGradientButton */,
+				FB2BA8311BE1166F00CC110B /* ADVAnimatedButton */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		FB2BA8311BE1166F00CC110B /* ADVAnimatedButton */ = {
+			isa = PBXGroup;
+			children = (
+				FB2BA8361BE1170C00CC110B /* ADVAnimatedButton.swift */,
+			);
+			name = ADVAnimatedButton;
+			sourceTree = "<group>";
+		};
+		FB2BA8321BE1168000CC110B /* ADVGradientButton */ = {
+			isa = PBXGroup;
+			children = (
+				FB2BA83B1BE117CF00CC110B /* ADVGradientButton.swift */,
+			);
+			name = ADVGradientButton;
+			sourceTree = "<group>";
+		};
+		FB2BA8331BE1168C00CC110B /* ADVProgressControl */ = {
+			isa = PBXGroup;
+			children = (
+				FB2BA8411BE1187A00CC110B /* ADVProgressControl.swift */,
+				FB2BA83F1BE1183900CC110B /* ADVProgressLayer.swift */,
+			);
+			name = ADVProgressControl;
+			sourceTree = "<group>";
+		};
+		FB2BA8341BE1169B00CC110B /* ADVSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				FB2BA8431BE118AA00CC110B /* ADVSegmentedControl.swift */,
+			);
+			name = ADVSegmentControl;
+			sourceTree = "<group>";
+		};
+		FB2BA8351BE116AA00CC110B /* ADVTabSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				FB2BA8451BE118F400CC110B /* ADVTabSegmentControl.swift */,
+			);
+			name = ADVTabSegmentControl;
+			sourceTree = "<group>";
+		};
+		FB2BA8471BE1194C00CC110B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FB2BA8541BE11A2B00CC110B /* SocialCells */,
+				FB2BA8511BE119E000CC110B /* Meta */,
+				FB2BA8481BE1198700CC110B /* eCommerceCells */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		FB2BA8481BE1198700CC110B /* eCommerceCells */ = {
+			isa = PBXGroup;
+			children = (
+				FB2BA8491BE119A400CC110B /* ProductCell.swift */,
+				FB2BA84A1BE119A400CC110B /* ProductImageCell.swift */,
+				FB2BA84B1BE119A400CC110B /* CategoryCell.swift */,
+				FB2BA84C1BE119A400CC110B /* CartCell.swift */,
+			);
+			name = eCommerceCells;
+			sourceTree = "<group>";
+		};
+		FB2BA8511BE119E000CC110B /* Meta */ = {
+			isa = PBXGroup;
+			children = (
+				FB2BA8521BE119F700CC110B /* MetaCell.swift */,
+			);
+			name = Meta;
+			sourceTree = "<group>";
+		};
+		FB2BA8541BE11A2B00CC110B /* SocialCells */ = {
+			isa = PBXGroup;
+			children = (
+				FB2BA8551BE11A4B00CC110B /* PictureCell.swift */,
+				FB2BA8561BE11A4B00CC110B /* ConnectionCell.swift */,
+			);
+			name = SocialCells;
+			sourceTree = "<group>";
+		};
+		FB2BA8591BE11B1300CC110B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +400,7 @@
 			files = (
 				FB2BA7FB1BE111F100CC110B /* LaunchScreen.storyboard in Resources */,
 				FB2BA7F81BE111F100CC110B /* Assets.xcassets in Resources */,
+				FB2BA8241BE112C500CC110B /* BeaconstacData.bundle in Resources */,
 				FB2BA7F61BE111F100CC110B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +426,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB2BA84F1BE119A400CC110B /* CategoryCell.swift in Sources */,
+				FB2BA8501BE119A400CC110B /* CartCell.swift in Sources */,
+				FB2BA8221BE1127500CC110B /* empty.m in Sources */,
+				FB2BA84D1BE119A400CC110B /* ProductCell.swift in Sources */,
+				FB2BA8531BE119F700CC110B /* MetaCell.swift in Sources */,
+				FB2BA8371BE1170C00CC110B /* ADVAnimatedButton.swift in Sources */,
 				FB2BA7F31BE111F100CC110B /* ViewController.swift in Sources */,
+				FB2BA83C1BE117CF00CC110B /* ADVGradientButton.swift in Sources */,
+				FB2BA8581BE11A4B00CC110B /* ConnectionCell.swift in Sources */,
+				FB2BA8571BE11A4B00CC110B /* PictureCell.swift in Sources */,
+				FB2BA84E1BE119A400CC110B /* ProductImageCell.swift in Sources */,
 				FB2BA7F11BE111F100CC110B /* AppDelegate.swift in Sources */,
+				FB2BA8461BE118F400CC110B /* ADVTabSegmentControl.swift in Sources */,
+				FB2BA82F1BE1161B00CC110B /* MegaTheme.swift in Sources */,
+				FB2BA8401BE1183900CC110B /* ADVProgressLayer.swift in Sources */,
+				FB2BA8441BE118AA00CC110B /* ADVSegmentedControl.swift in Sources */,
+				FB2BA8421BE1187A00CC110B /* ADVProgressControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,10 +582,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = beacon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.waynesworld.beacon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "beacon/beacon-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -411,10 +600,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = beacon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.waynesworld.beacon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "beacon/beacon-Bridging-Header.h";
 			};
 			name = Release;
 		};
